@@ -1,11 +1,14 @@
 <?php
-console.log("hello.php");
+$name = "";
+if(isset($_POST["name"])){
+    $name = $_POST["name"];
+} else {
+    $name = "null";
+}
 
-// $data = $_GET["name"];
-
-$data = '{hello:hello}';
+$data = '{hello:"' . $name . '"}';
 
 header('Content-Type: application/json');
-echo json_encode($data);
 
+echo json_encode($data);
 ?>
