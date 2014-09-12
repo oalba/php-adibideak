@@ -2,6 +2,8 @@
 
 [w3schools](http://www.w3schools.com/php/)
 
+[http://php.net/manual/](http://php.net/manual/)
+
 
 ###Servers
 
