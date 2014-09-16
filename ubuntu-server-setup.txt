@@ -1,0 +1,24 @@
+sudo apt-get update
+# apache + php
+sudo apt-get install php5
+  
+# port scanner
+sudo apt-get install nmap
+nmap localhost
+  
+# git
+sudo apt-get install git
+  
+# download http://www.sublimetext.com/2
+tar -xjvf Sublime\ Text\ 2.0.2.tar.bz2 
+
+cd Sublime\ Text\ 2/
+
+./sublime_text &
+  
+# config apache
+cd /var/www/
+
+sudo ln -s /home/zubiri/Documents/workspace/ workspace
+
+# http://localhost/workspace
