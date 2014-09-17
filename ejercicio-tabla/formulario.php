@@ -4,12 +4,12 @@
 <?php
 // No funciona cuando se envia un valor no numerico!!!
 $num = 0;
-if(isset($_GET["num"])){
-    $num = $_GET["num"];
-} else {
-    $num = 1;
+if(is_numeric($_GET["num"]) && $_GET["num"] > 0){
+	$num = $_GET["num"];
+}else{
+	echo "Debe insertar un num";
+	$num = 0;
 }
-
 ?>
 
 <br>
