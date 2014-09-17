@@ -15,6 +15,9 @@ tar -xjvf Sublime\ Text\ 2.0.2.tar.bz2
 cd Sublime\ Text\ 2/
 
 ./sublime_text &
+
+# chromium
+sudo apt-get install chromium-browser
   
 # config apache
 cd /var/www/
