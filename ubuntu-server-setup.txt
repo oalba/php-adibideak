@@ -16,6 +16,10 @@ cd Sublime\ Text\ 2/
 
 ./sublime_text &
 
+# OR
+# http://www.ubuntuupdates.org/ppa/sublime_text_2
+# http://www.ubuntuupdates.org/ppa/sublime_text_3
+
 # chromium
 sudo apt-get install chromium-browser
   
