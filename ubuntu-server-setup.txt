@@ -33,3 +33,6 @@ cd /var/www/
 sudo ln -s /home/zubiri/Documents/workspace/ workspace
 
 # http://localhost/workspace
+
+# aptana: eclipse + php
+# http://www.aptana.com/
