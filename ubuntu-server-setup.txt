@@ -56,6 +56,9 @@ xdebug.remote_host=127.0.0.1
 xdebug.remote_port=9000
 xdebug.remote_handler=dbgp
 xdebug.remote_autostart=0
-```
 
 
+Restart apache:
+$ sudo apache2ctl graceful
+
+...
