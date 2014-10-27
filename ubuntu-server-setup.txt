@@ -1,7 +1,7 @@
 sudo apt-get update
-# apache + php
-sudo apt-get install php5
-  
+# apache + php + mysql
+$ sudo apt-get install php5 mysql-server mysql-client php5-mysql
+
 # port scanner
 sudo apt-get install nmap
 # nmap localhost
