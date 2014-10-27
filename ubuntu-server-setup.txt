@@ -34,5 +34,10 @@ sudo ln -s /home/zubiri/Documents/workspace/ workspace
 
 # http://localhost/workspace
 
-# aptana: eclipse + php
-# http://www.aptana.com/
+# PHP IDE: Aptana(eclipse + php) 
+# java: http://openjdk.java.net/install/
+$ sudo apt-get install openjdk-7-jre
+
+# Download aptana http://www.aptana.com/  unzip and run
+
+
