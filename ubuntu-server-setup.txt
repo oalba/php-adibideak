@@ -40,4 +40,6 @@ $ sudo apt-get install openjdk-7-jre
 
 # Download aptana http://www.aptana.com/  unzip and run
 
+# Aptana php debug: Xdebug: http://digitaldisseny.com/en/blog/206-debug-php-aptana-ubuntu (TODO)
+
 
