@@ -44,3 +44,8 @@ put this in the .php file:
 ```php
 require 'vendor/autoload.php';
 ```
+Other uses:
+```
+$ composer require ...
+$ composer remove ...
+```
