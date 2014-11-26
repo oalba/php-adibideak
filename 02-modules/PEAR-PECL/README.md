@@ -15,3 +15,8 @@ http://php.net/manual/en/function.http-get.php
 ``` 
 $ sudo pear install HTTP_Request2
 ```
+
+PECL:
+```
+$ pecl install ....
+```
