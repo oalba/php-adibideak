@@ -17,7 +17,8 @@ $results = $service->volumes->listVolumes('Henry David Thoreau', $optParams);
 echo "<h3>Henry David Thoreau free books in google books</h3>";
 
 foreach ($results as $item) {
-  echo $item['volumeInfo']['title'], "<br /> \n";
+  echo $item['volumeInfo']['title'], "<br />";
+  echo '<img src=', $item['volumeInfo']['imageLinks']['thumbnail'], ">", "<br /> \n";
 }
 
 ?>
