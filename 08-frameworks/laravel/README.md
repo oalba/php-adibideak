@@ -15,8 +15,17 @@ Change the system path in .bashrc:
 ```
 export PATH=~/.composer/vendor/bin:$PATH
 ```
-Then you can run maravel:
+Then you can run Laravel:
 
 ```
-$ maravel
+$ laravel
+```
+Create a new proyect called 'test':
+```
+$ laravel new test
+```
+Run using php5 command line:
+```
+$ cd test
+$ 
 ```
