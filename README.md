@@ -66,7 +66,7 @@ $ sudo apt-get install openjdk-7-jre
 $ sudo apt-get install php5-xdebug
 
 /etc/php5/apache2/conf.d/xdebug.ini
-```
+
 zend_extension=/usr/lib/php5/20090626/xdebug.so
  
 xdebug.profiler_output_dir=/var/log/xdebug
@@ -82,7 +82,5 @@ xdebug.remote_autostart=0
 
 Restart apache:
 $ sudo apache2ctl graceful
-
-...
 
 ```
