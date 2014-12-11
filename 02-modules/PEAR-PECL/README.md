@@ -5,7 +5,7 @@ http://pecl.php.net/
 https://help.ubuntu.com/community/PhpPear
 
 ```
-$ sudo apt-get install php-pear
+$ sudo apt-get install php5 php5-dev php-pear
 $ pear remote-list
 ```
 To install http://pear.php.net/package/HTTP_Request2
