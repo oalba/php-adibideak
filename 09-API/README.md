@@ -3,3 +3,5 @@ https://developers.google.com/api-client-library/php/
 https://developers.google.com/api-client-library/php/start/installation
 
 https://code.google.com/p/google-api-php-client/wiki/GettingStarted
+
+http://www.lornajane.net/posts/2010/three-ways-to-make-a-post-request-from-php
