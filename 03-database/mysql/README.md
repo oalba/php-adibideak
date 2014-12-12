@@ -7,6 +7,10 @@ Is installed by default >5.3
 
 http://php.net/manual/en/mysqli.installation.php
 
+To see if mysqli is installed:
+```
+$ php -m | grep mysqli
+```
 
 This is the OLD WAY!!:
 ```
