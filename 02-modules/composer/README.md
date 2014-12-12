@@ -29,3 +29,6 @@ Other uses:
 $ composer require ...
 $ composer remove ...
 ```
+
+###packages list
+https://packagist.org
