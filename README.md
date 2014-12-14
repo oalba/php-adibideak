@@ -84,3 +84,19 @@ Restart apache:
 $ sudo apache2ctl graceful
 
 ```
+## PHP
+
+Start PHP server:
+
+```
+$ php -S localhost 8000
+```
+Access using:
+```
+http://localhost:8000/filename.php
+```
+
+With Apache:
+```
+http://localhost/.../.../filename.php
+```
