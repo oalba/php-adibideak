@@ -1,5 +1,7 @@
 #PHP mysql
 
+http://php.net/manual/en/set.mysqlinfo.php
+
 ###msqli:
 http://php.net/manual/en/book.mysqli.php
 
