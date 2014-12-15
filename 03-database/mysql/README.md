@@ -2,18 +2,13 @@
 
 http://php.net/manual/en/set.mysqlinfo.php
 
-###msqli:
-http://php.net/manual/en/book.mysqli.php
-
-http://php.net/manual/en/mysqli.installation.php
-
 Install:
 ```
 $ sudo apt-get install php5-mysql
 ```
-To see if mysqli is installed:
+To see if mysql* is installed:
 ```
-$ php -m | grep mysqli
+$ php -m | grep mysql
 ```
 
 ###mysql
