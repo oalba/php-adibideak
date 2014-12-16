@@ -6,6 +6,6 @@ if (!isset($_SESSION['count'])) {
   $_SESSION['count']++;
 }
 
-echo $_SESSION['count'] . "\n";
+echo $_SESSION['count'] . "<br />\n";
 
 ?>
