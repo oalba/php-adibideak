@@ -29,4 +29,7 @@ foreach ($cursor as $document) {
     echo $document["title"] . "\n";
 }
 */
+
+// more examples
+// http://php.net/manual/en/mongocollection.find.phphttp://php.net/manual/en/mongocollection.find.php
 ?>
