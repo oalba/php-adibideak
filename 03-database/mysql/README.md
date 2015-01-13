@@ -19,3 +19,6 @@ command line mysql: https://github.com/zmwebdev/node-express-examples/tree/maste
 $ sudo apt-get install mysql-server
 $ sudo apt-get install phpmyadmin
 ```
+### MySQL in the cloud
+
+http://www.sitepoint.com/database-as-a-service-mysql-in-the-cloud/
