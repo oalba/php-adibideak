@@ -89,7 +89,7 @@ $ sudo apache2ctl graceful
 Start PHP server:
 
 ```
-$ php -S localhost 8000
+$ php -S localhost:8000
 ```
 Access using:
 ```
