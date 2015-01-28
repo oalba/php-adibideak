@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/ni/workspace"
+		}
+	],
+	"settings": {
+		"xdebug": {
+			"url": "http://localhost/workspace"
+		}
+	}
+}
