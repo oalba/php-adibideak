@@ -6,31 +6,14 @@ if ($mysqli->connect_errno) {
 
 $res = $mysqli->query("SELECT * FROM users");
 
-// echo "Reverse order...\n";
-// for ($row_no = $res->num_rows - 1; $row_no >= 0; $row_no--) {
-//     $res->data_seek($row_no);
-//     $row = $res->fetch_assoc();
-//     echo " id = " . $row['id'] . "\n";
-// }
-
-// echo "Result set order...\n";
-// $res->data_seek(0);
-// while ($row = $res->fetch_assoc()) {
-//     echo " id = " . $row['name'] . "\n";
-// }
-
-// $json = array();
-// while($row = $res->fetch_assoc()) {
-//   $json[]['idusers'] = $row['idusers'];
-//   $json[]['name'] = $row['name'];
-// }
-
+// http://stackoverflow.com/questions/19146922/php-dynamically-generate-json
 $json = array();
 while($row = $res->fetch_assoc()) {
-	$val = array();
-  $val['idusers'] = $row['idusers'];
-  $val['name'] = $row['name'];
-  $json[][] = $val;
+    $user = array(
+        'idusers' => $row['idusers'],
+        'name' => $row['name']
+    );
+    array_push($json, $user);
 }
 
 
