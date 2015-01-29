@@ -33,5 +33,11 @@ http://twig.sensiolabs.org/documentation
 
 Sublime Text with twig: http://stackoverflow.com/questions/26294305/twig-syntax-highlighting-sublime-text-2
 
+...
+
+## The Controller
+
+http://symfony.com/doc/current/quick_tour/the_controller.html
+
 
 
