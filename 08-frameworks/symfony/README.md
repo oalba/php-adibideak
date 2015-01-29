@@ -25,3 +25,9 @@ Developer: http://localhost:8000
 Production: http://localhost:8000/app.php
 ```
 
+## The View
+
+http://symfony.com/doc/current/quick_tour/the_view.html
+
+http://twig.sensiolabs.org/documentation
+
