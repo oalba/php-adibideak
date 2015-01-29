@@ -62,24 +62,6 @@ $ sudo apt-get install openjdk-7-jre
 
 # Download aptana http://www.aptana.com/  unzip and run
 
-# Aptana php debug: Xdebug: http://digitaldisseny.com/en/blog/206-debug-php-aptana-ubuntu (TODO)
-$ sudo apt-get install php5-xdebug
-
-/etc/php5/apache2/conf.d/xdebug.ini
-
-zend_extension=/usr/lib/php5/20090626/xdebug.so
- 
-xdebug.profiler_output_dir=/var/log/xdebug
-xdebug.profiler_enable_trigger=1
-xdebug.profiler_enable=0
- 
-xdebug.remote_enable=true
-xdebug.remote_host=127.0.0.1
-xdebug.remote_port=9000
-xdebug.remote_handler=dbgp
-xdebug.remote_autostart=0
-
-
 Restart apache:
 $ sudo apache2ctl graceful
 
@@ -99,4 +81,52 @@ http://localhost:8000/filename.php
 With Apache:
 ```
 http://localhost/.../.../filename.php
+```
+
+## Xdebug
+
+With SublimeText:
+
+http://stackoverflow.com/questions/5504152/is-it-possible-to-use-xdebug-on-ubuntu
+
+http://askubuntu.com/questions/503751/configure-xdebug-ubuntu-14-04
+
+http://www.youtube.com/watch?v=Zk87LSbxLtw
+
+https://github.com/martomo/SublimeTextXdebug
+
+http://www.sitepoint.com/debugging-xdebug-sublime-text-3/
+
+Install:
+```
+$ sudo apt-get install php5-xdebug
+```
+you should change your /etc/php5/apache2/conf.d/20-xdebug.iniand add this line:
+```
+  zend_extension=/path/to/your/xdebug.so 
+  xdebug.remote_enable = 1
+```
+then
+```
+$ sudo service apache2 restart
+```
+Install xdebug in sublimetext using package manager
+
+in sublime text, project -> save project as, and save in the root. Add this:
+
+```
+{
+  "folders":
+  [
+    {
+    "follow_symlinks": true,
+    "path": "/home/../workspace"
+    }
+  ],
+  "settings": {
+      "xdebug": {
+          "url": "http://localhost/",
+      }
+  }
+}
 ```
