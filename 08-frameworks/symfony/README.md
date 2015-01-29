@@ -21,6 +21,7 @@ $ symfony new myproject
 $ cd myproject
 $ php app/console server:ru
 
-http://localhost:8000
+Developer: http://localhost:8000
+Production: http://localhost:8000/app.php
 ```
 
