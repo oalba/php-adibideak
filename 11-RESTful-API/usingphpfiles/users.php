@@ -4,7 +4,14 @@ if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
 
+// $nombre = "koxme";
+
 $res = $mysqli->query("SELECT * FROM users");
+
+
+// $res = $mysqli->query("SELECT * FROM users WHERE name='".$nombre."'");
+
+// $res = $mysqli->query("SELECT * FROM users WHERE name='$nombre'");
 
 // http://stackoverflow.com/questions/19146922/php-dynamically-generate-json
 $json = array();
