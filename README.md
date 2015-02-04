@@ -83,6 +83,11 @@ With Apache:
 http://localhost/.../.../filename.php
 ```
 
+logs in Apache:
+```
+$ tail -f /var/log/apache2/error.log
+```
+
 ## Xdebug
 
 With SublimeText:
