@@ -6,6 +6,8 @@
 
 http://www.codecademy.com/en/tracks/php
 
+http://www.phptherightway.com/
+
 ###Servers
 
 MAC 
