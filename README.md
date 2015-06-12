@@ -61,6 +61,9 @@ http://www.aptana.com/
 https://www.jetbrains.com/phpstorm/
 
 ## Xdebug
+With Aptana:
+
+http://php.tutorialhorizon.com/how-to-debug-php-in-aptana-studio-for-linux-part-1/
 
 With SublimeText:
 
