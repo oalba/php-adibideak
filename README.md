@@ -47,6 +47,10 @@ logs in Apache:
 ```
 $ tail -f /var/log/apache2/error.log
 ```
+php.ini:
+```
+/etc/php5/apache2/php.ini
+```
 
 ## Xdebug
 
