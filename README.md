@@ -52,6 +52,14 @@ php.ini:
 /etc/php5/apache2/php.ini
 ```
 
+##IDE
+
+SublimeText
+
+http://www.aptana.com/
+
+https://www.jetbrains.com/phpstorm/
+
 ## Xdebug
 
 With SublimeText:
