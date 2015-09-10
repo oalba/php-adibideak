@@ -30,9 +30,13 @@ https://github.com/zmwebdev/php-examples/blob/master/ubuntu-server-setup.txt
 
 Start PHP server:
 
+http://php.net/manual/en/features.commandline.webserver.php
+
 ```
 $ php -S localhost:8000
 $ php -S localhost:8000 -t foo/
+You can make the web server accessible on port 8000 to any interface with:
+$ php -S 0.0.0.0:8000
 ```
 Access using:
 ```
