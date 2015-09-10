@@ -22,3 +22,7 @@ $ sudo apt-get install phpmyadmin
 ### MySQL in the cloud
 
 http://www.sitepoint.com/database-as-a-service-mysql-in-the-cloud/
+
+https://devcenter.heroku.com/articles/cleardb
+
+https://developers.openshift.com/en/databases-mysql.html
