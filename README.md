@@ -65,6 +65,10 @@ http://www.aptana.com/
 
 https://www.jetbrains.com/phpstorm/
 
+##Errors
+
+http://www.phptherightway.com/#error_reporting
+
 ## Xdebug
 With Aptana:
 
