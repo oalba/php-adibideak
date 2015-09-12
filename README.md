@@ -56,6 +56,11 @@ php.ini:
 ```
 /etc/php5/apache2/php.ini
 ```
+###HTTP request
+
+curl, postman, ...
+
+https://github.com/zmwebdev/node-express-examples/blob/47eb84a915c932e0e3719466eca03d4a99d6d885/README.md#http-request
 
 ##IDE
 
