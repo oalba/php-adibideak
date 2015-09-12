@@ -13,5 +13,4 @@ https://www.codeofaninja.com/2015/06/php-crud-with-ajax-and-oop.html
 http://www.codingcage.com/2014/12/simple-php-crud-operations-with-mysql.html
 
 ###MySql command line
-{{md https://raw.githubusercontent.com/zmwebdev/node-express-examples/master/05-database/README.md}}
-
+https://github.com/zmwebdev/node-express-examples/tree/master/05-database
