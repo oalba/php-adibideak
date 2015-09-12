@@ -5,7 +5,9 @@ $pdo = new PDO('mysql:host=localhost;dbname=todo', 'peru', 'peru');
 
 // YES -->
 $stmt = $pdo->prepare('SELECT * FROM users WHERE userid = :userid');
+
 // $userid = filter_input(INPUT_GET, 'userid', FILTER_SANITIZE_NUMBER_INT); // <-- filter your data first (see [Data Filtering](#data_filtering)), especially important for INSERT, UPDATE, etc.
+
 $userid = filter_input(INPUT_GET, 'userid', FILTER_VALIDATE_INT); 
 
 // var_dump($userid);
