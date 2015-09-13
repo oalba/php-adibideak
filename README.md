@@ -8,6 +8,8 @@ http://www.codecademy.com/en/tracks/php
 
 http://www.phptherightway.com/
 
+[PHP Cookbook](http://shop.oreilly.com/product/0636920029335.do)
+
 ###Servers
 
 MAC 
