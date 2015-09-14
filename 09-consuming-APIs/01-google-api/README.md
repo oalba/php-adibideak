@@ -2,6 +2,10 @@ Google Books API example:
 
 http://developers.google.com/apis-explorer/#p/books/v1/
 
+http://campus.codeschool.com/courses/discover-drive/intro
+
+https://developers.google.com/drive/web/about-sdk
+
 Install:
 
 ```
