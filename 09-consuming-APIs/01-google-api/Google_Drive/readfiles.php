@@ -3,8 +3,6 @@
 
 session_start();
 
-include_once "base.php";
-
 // $ composer require google/apiclient
 // composer: load all modules defined in composer.json
 require 'vendor/autoload.php';
