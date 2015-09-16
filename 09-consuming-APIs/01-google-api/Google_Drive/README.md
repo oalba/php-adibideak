@@ -5,3 +5,9 @@ Create Oauth 2.0 credentials
 ```
 $ composer require google/apiclient
 ```
+
+After git clone:
+
+```
+$ composer install
+```
