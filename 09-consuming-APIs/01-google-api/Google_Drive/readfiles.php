@@ -12,14 +12,17 @@ require 'vendor/autoload.php';
   the redirect URI is to this page, e.g:
   http://localhost:8080/fileupload.php
  ************************************************/
-$client_id = '.......';
-$client_secret = '.......';
-$redirect_uri = 'http://localhost/workspace/php-examples/09-consuming-APIs/01-google-api/Google_Drive/readfiles.php';
+$client_id = '...';
+$client_secret = '..';
+$redirect_uri = filter_var('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'],
+    FILTER_SANITIZE_URL);
+// $redirect_uri = 'http://localhost/workspace/php-examples/09-consuming-APIs/01-google-api/Google_Drive/readfiles.php';
 
 $client = new Google_Client();
 $client->setClientId($client_id);
 $client->setClientSecret($client_secret);
 $client->setRedirectUri($redirect_uri);
+// https://developers.google.com/drive/web/scopes
 $client->addScope("https://www.googleapis.com/auth/drive");
 $service = new Google_Service_Drive($client);
 
