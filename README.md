@@ -84,15 +84,19 @@ https://c9.io/
 http://www.phptherightway.com/#error_reporting
 
 ## Xdebug
-With Aptana:
+####With Aptana:
 
 http://php.tutorialhorizon.com/how-to-debug-php-in-aptana-studio-for-linux-part-1/
 
-With c9.io:
+####With c9.io:
 
 https://c9.io/blog/debug-your-php-code-with-xdebug-and-cloud9/
 
-With SublimeText:
+- Open the script you want to debug, for example index.php
+- Set at least one breakpoint
+- Choose Run > Run With > PHP (built-in web server)
+
+####With SublimeText:
 
 http://stackoverflow.com/questions/5504152/is-it-possible-to-use-xdebug-on-ubuntu
 
