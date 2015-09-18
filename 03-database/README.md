@@ -19,3 +19,7 @@ http://www.codingcage.com/2014/12/simple-php-crud-operations-with-mysql.html
 
 ###MySql command line
 https://github.com/zmwebdev/node-express-examples/tree/master/05-database#mysql-command-line-tutorial
+
+###C9.io Mysql
+
+https://docs.c9.io/docs/setting-up-mysql
