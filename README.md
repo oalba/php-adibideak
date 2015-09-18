@@ -66,11 +66,16 @@ https://github.com/zmwebdev/node-express-examples/blob/47eb84a915c932e0e3719466e
 
 ##IDE
 
-SublimeText
+SublimeText:
+
+http://wasil.org/sublime-text-3-perfect-php-development-set-up
+
 
 http://www.aptana.com/
 
 https://www.jetbrains.com/phpstorm/
+
+https://c9.io/
 
 ##Errors
 
