@@ -2,7 +2,7 @@
 // PDO + MySQL
 // http://www.phptherightway.com/#databases
 
-$pdo = new PDO('mysql:host=localhost;dbname=todo', 'peru', 'peru');
+$pdo = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
 $statement = $pdo->query("SELECT * FROM users");
 //$row = $statement->fetch(PDO::FETCH_ASSOC);
 //echo htmlentities($row['email']);

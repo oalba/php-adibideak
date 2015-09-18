@@ -1,6 +1,6 @@
 <?php
 
-$pdo = new PDO('mysql:host=localhost;dbname=todo', 'peru', 'peru');
+$pdo = new PDO('mysql:host=localhost;dbname=test', 'root', 'root');
 // $pdo->query("SELECT name FROM users WHERE userid = " . $_GET['userid']); // <-- NO!
 
 // YES -->
