@@ -88,6 +88,10 @@ With Aptana:
 
 http://php.tutorialhorizon.com/how-to-debug-php-in-aptana-studio-for-linux-part-1/
 
+With c9.io:
+
+https://c9.io/blog/debug-your-php-code-with-xdebug-and-cloud9/
+
 With SublimeText:
 
 http://stackoverflow.com/questions/5504152/is-it-possible-to-use-xdebug-on-ubuntu
