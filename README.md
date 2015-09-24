@@ -141,3 +141,4 @@ in sublime text, project -> save project as, and save in the root. Add this:
   }
 }
 ```
+Use chrome addon: Xdebug helper
