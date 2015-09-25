@@ -109,6 +109,12 @@ https://github.com/martomo/SublimeTextXdebug
 http://www.sitepoint.com/debugging-xdebug-sublime-text-3/
 
 Install:
+
+In sublimeText:
+```
+https://packagecontrol.io/packages/Xdebug%20Client
+```
+In linux:
 ```
 $ sudo apt-get install php5-xdebug
 ```
