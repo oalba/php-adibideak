@@ -12,6 +12,8 @@ http://www.phptherightway.com/
 
 [Modern PHP](http://shop.oreilly.com/product/0636920033868.do)
 
+http://wasil.org/sublime-text-3-perfect-php-development-set-up
+
 ###Servers
 
 MAC 
