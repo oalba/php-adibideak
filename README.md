@@ -144,7 +144,7 @@ in sublime text, project -> save project as, and save in the root. Add this:
   ],
   "settings": {
       "xdebug": {
-          "url": "http://localhost/",
+          "url": "http://localhost/.../"
       }
   }
 }
