@@ -1,5 +1,9 @@
 <?php
 //To Test
+
+// http://php.net/manual/es/pdo.error-handling.php
+// http://www.phptherightway.com/#errors_and_exceptions
+
 try {
 
   $servername = '';
