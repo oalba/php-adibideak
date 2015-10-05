@@ -120,7 +120,7 @@ In linux:
 ```
 $ sudo apt-get install php5-xdebug
 ```
-you should change your /etc/php5/apache2/conf.d/20-xdebug.iniand add this line:
+you should change your /etc/php5/apache2/conf.d/20-xdebug.ini and add this line:
 ```
   zend_extension=/path/to/your/xdebug.so 
   xdebug.remote_enable = 1
