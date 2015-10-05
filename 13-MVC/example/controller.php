@@ -1,4 +1,6 @@
 <?php
+// namespace mvc\controller;
+
 class Controller
 {
     private $model;
