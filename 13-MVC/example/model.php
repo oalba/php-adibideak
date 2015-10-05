@@ -1,6 +1,4 @@
 <?php
-// namespace mvc\model;
-
 class Model {
     public $string;
     

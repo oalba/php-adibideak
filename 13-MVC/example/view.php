@@ -1,6 +1,4 @@
 <?php
-// namespace mvc\view;
-
 class View
 {
     private $model;
