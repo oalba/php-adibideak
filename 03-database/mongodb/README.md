@@ -8,4 +8,8 @@ $ sudo apt-get install php5-mongo
 
 http://docs.mongodb.org/ecosystem/drivers/php/
 
+Install mongDB in Ubuntu:
+```
+$ sudo apt-get instal mongodb
+```
 
