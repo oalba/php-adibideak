@@ -35,6 +35,13 @@ https://help.ubuntu.com/14.04/serverguide/php5.html
 ```
 $ sudo apt-get install php5 libapache2-mod-php5
 ```
+Create a workspace:
+```
+$ mkdir ~/workspace
+$ sudo ln -s ~/workspace /var/www/html/workspace
+
+http://localhost/workspace
+```
 
 ## PHP
 
