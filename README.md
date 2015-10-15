@@ -28,9 +28,13 @@ Windows
 
 Portable: [http://www.usbwebserver.net/en/](http://www.usbwebserver.net/en/) 
 
-# Ubuntu server setup
+# Install PHP
 
-https://github.com/zmwebdev/php-examples/blob/master/ubuntu-server-setup.txt
+https://help.ubuntu.com/14.04/serverguide/php5.html
+
+```
+$ sudo apt-get install php5 libapache2-mod-php5
+```
 
 ## PHP
 
