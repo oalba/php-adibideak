@@ -14,3 +14,9 @@ https://github.com/PHPMailer/PHPMailer
 http://www.sitepoint.com/sending-emails-php-phpmailer/
 
 https://github.com/PHPMailer/PHPMailer/wiki/Using-Gmail-with-XOAUTH2
+
+###Mail providers for custom doamin
+https://www.zoho.com/mail/
+
+https://simplyian.com/2015/01/07/Hacking-GMail-to-use-custom-domains-for-free/
+
