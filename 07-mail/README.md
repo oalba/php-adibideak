@@ -12,3 +12,5 @@ https://zapier.com/zapbook/gmail/webhook/
 https://github.com/PHPMailer/PHPMailer
 
 http://www.sitepoint.com/sending-emails-php-phpmailer/
+
+https://github.com/PHPMailer/PHPMailer/wiki/Using-Gmail-with-XOAUTH2
