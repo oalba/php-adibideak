@@ -25,10 +25,11 @@ class m {
 
 $m1 = new m(-25.363, 131.044, "Hello");
 $m2 = new m(-25.463, 131.144, "Hello2");
+$m3 = new m(-25.563, 131.144, "Hello3");
 
-$markers = array($m1, $m2);
+$markers = array($m1, $m2, $m3);
 
 // render
-echo $twig->render('index.html', array('markers' => array($m1, $m2)));
+echo $twig->render('index.html', array('markers' => $markers));
 
 ?>
