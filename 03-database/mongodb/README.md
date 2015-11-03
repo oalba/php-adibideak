@@ -2,7 +2,11 @@ http://php.net/manual/en/book.mongo.php
 
 http://php.net/manual/en/mongo.tutorial.php
 
-Install: https://docs.mongodb.org/ecosystem/drivers/php/
+http://php.net/manual/en/class.mongocollection.php
+
+Install:
+
+https://docs.mongodb.org/ecosystem/drivers/php/
 
 ```
 $ sudo apt-get install php5-dev php5-cli php-pear
