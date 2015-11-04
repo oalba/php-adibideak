@@ -4,7 +4,14 @@ http://php.net/manual/en/mongo.tutorial.php
 
 http://php.net/manual/en/class.mongocollection.php
 
-Install:
+Install mongodb:
+```
+$ sudo apt-get install mongodb
+
+$ mongo
+```
+
+Install PHP module:
 
 https://docs.mongodb.org/ecosystem/drivers/php/
 
