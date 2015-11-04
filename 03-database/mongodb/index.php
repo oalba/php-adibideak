@@ -3,6 +3,10 @@
 
 $m = new MongoClient("mongodb://test:test@ds033400.mongolab.com:33400/zmwebdev-test");
 
+// http://php.net/manual/en/mongo.connecting.auth.php
+// // Specifying the username and password in the connection URI (preferred)
+// $m = new MongoClient("mongodb://${username}:${password}@localhost");
+
 $db = $m->selectDB('zmwebdev-test');
 
 $collection = $db->books;
