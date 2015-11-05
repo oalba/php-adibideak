@@ -6,6 +6,8 @@ http://campus.codeschool.com/courses/discover-drive/intro
 
 https://developers.google.com/drive/web/about-sdk
 
+https://github.com/google/google-api-php-client
+
 Install:
 
 ```
