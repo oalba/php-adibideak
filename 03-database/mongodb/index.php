@@ -6,6 +6,7 @@ $m = new MongoClient("mongodb://test:test@ds033400.mongolab.com:33400/zmwebdev-t
 // http://php.net/manual/en/mongo.connecting.auth.php
 // // Specifying the username and password in the connection URI (preferred)
 // $m = new MongoClient("mongodb://${username}:${password}@localhost");
+// https://docs.mongodb.org/manual/administration/security-user-role-management/
 
 $db = $m->selectDB('zmwebdev-test');
 
