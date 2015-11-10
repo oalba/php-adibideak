@@ -25,6 +25,10 @@ https://console.developers.google.com
 ```
 OAUTH2:
 
+```
+https://developers.google.com/oauthplayground/
+```
+
 create "Web" credential, if your app is stored in the cloud
 
 create "Other" credential for apps running in localhost, etc.
