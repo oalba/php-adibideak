@@ -6,7 +6,7 @@ http://stackoverflow.com/questions/4064444/returning-json-from-a-php-script
 
 http://php.net/manual/fr/function.json-encode.php
 
-http://jsonplaceholder.typicode.com/
+fake REST API: http://jsonplaceholder.typicode.com/
 
 "Access-Control-Allow-Origin":
 ```php
