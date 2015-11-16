@@ -7,10 +7,6 @@ require 'vendor/autoload.php';
 $app = new \Slim\Slim();
 $app->config('debug', false);
 
-// template
-$view = $app->view();
-$view->setTemplatesDirectory('./templates');
-
 
 $app->get('/', function () {
     echo "Use: http://server/index.php/";
@@ -39,12 +35,6 @@ $app->post('/user/add', function () use ($app) {
 	$username = $app->request->post('username'); 
     echo "HTTP post, username: $username";
 
-});
-
-//template
-$app->get('/mainhtml', function ($name) {
-    echo "ffff";
-    // $app->render('main.html');
 });
 
 
