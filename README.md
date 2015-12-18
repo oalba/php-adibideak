@@ -103,6 +103,8 @@ http://php.tutorialhorizon.com/how-to-debug-php-in-aptana-studio-for-linux-part-
 
 ####With c9.io:
 
+https://github.com/c9/c9.ide.run.debug.xdebug
+
 https://c9.io/blog/debug-your-php-code-with-xdebug-and-cloud9/
 
 - Open the script you want to debug, for example index.php
