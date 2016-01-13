@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- azpiko meta lerroa ñ karakterea inprimatzeko -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>HelloWorld</title>
 </head>
 <body>
