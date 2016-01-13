@@ -16,7 +16,7 @@ echo "El nombre es: $izena y tiene 30 años";
 echo "<br>";
 echo 'El nombre es: $izena y tiene 30 años';
 echo "<br>";
-echo "$izena" . " " . "$abizena"
+echo "$izena" . " " . "$abizena";
 echo "<br>";
 echo "$izenAbizena";
 ?>
