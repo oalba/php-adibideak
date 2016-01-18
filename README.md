@@ -163,3 +163,9 @@ in sublime text, project -> save project as, and save in the root. Add this:
 }
 ```
 Use chrome addon: Xdebug helper
+
+## Other
+
+HHVM is an open-source virtual machine designed for executing programs written in Hack and PHP:
+
+http://hhvm.com/
