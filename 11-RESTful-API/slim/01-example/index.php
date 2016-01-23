@@ -10,6 +10,8 @@ $app->config('debug', false);
 
 $app->get('/', function () {
     echo "Use: http://server/index.php/";
+    echo "<br> OR <br>";
+    echo "http://server/";
 });
 
 $app->get('/hello/:name', function ($name) {
@@ -37,6 +39,18 @@ $app->post('/user/add', function () use ($app) {
 
 });
 
+//GET variables
+// /user/?izena=koxme&abizena=Abarka
+// http://docs.slimframework.com/request/variables/
+$app->get('/user/', function () use ($app) {
+	$username = $app->request->get('izena');
+	$abizena = $app->request->get('abizena');
+
+	if (!$username) $username = "?";
+	if (!$abizena) $abizena = "?";
+
+	echo "$username $abizena";
+});
 
 $app->run();
 
