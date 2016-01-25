@@ -1,7 +1,7 @@
 <?php
 // connect
 
-$m = new MongoClient("mongodb://test:test@ds033400.mongolab.com:33400/zmwebdev-test");
+$m = new MongoClient("mongodb://test2:test2@ds033400.mongolab.com:33400/zmwebdev-test");
 
 // http://php.net/manual/en/mongo.connecting.auth.php
 // // Specifying the username and password in the connection URI (preferred)
