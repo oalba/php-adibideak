@@ -1,7 +1,4 @@
 <?php
-// composer: load all modules defined in composer.json
-require '../vendor/autoload.php';
-
 require 'Calculator.php';
  
 class CalculatorTests extends PHPUnit_Framework_TestCase
