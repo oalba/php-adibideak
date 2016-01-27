@@ -166,6 +166,12 @@ Use chrome addon: Xdebug helper
 
 ## Other
 
+###HHVM
 HHVM is an open-source virtual machine designed for executing programs written in Hack and PHP:
 
 http://hhvm.com/
+
+###phpbrew
+phpbrew builds and installs multiple version php(s) in your $HOME directory.
+
+https://github.com/phpbrew/phpbrew
