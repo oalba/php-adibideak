@@ -1,4 +1,7 @@
 <?php
+// composer: load all modules defined in composer.json
+require '../vendor/autoload.php';
+
 require 'Calculator.php';
  
 class CalculatorTests extends PHPUnit_Framework_TestCase
@@ -22,4 +25,3 @@ class CalculatorTests extends PHPUnit_Framework_TestCase
     }
  
 }
-- See more at: http://www.startutorial.com/articles/view/phpunit-beginner-part-1-get-started#sthash.lrhs4BdN.dpuf
