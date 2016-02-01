@@ -2,6 +2,8 @@ https://phpunit.de
 
 http://www.startutorial.com/articles/view/phpunit-beginner-part-1-get-started
 
+https://phpunit.de/manual/current/en/writing-tests-for-phpunit.html
+
 ##Install
 ```
 $ chmod +x phpunit.phar
