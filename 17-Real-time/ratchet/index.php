@@ -1,12 +1,13 @@
 <?php
+require 'vendor/autoload.php';
+require "Chat.php";
+
 use Ratchet\Server\IoServer;
-use MyApp\Chat;
+//use MyApp\Chat;
 
-    //require dirname(__DIR__) . '/vendor/autoload.php';
-    require 'vendor/autoload.php';
-    $server = IoServer::factory(
-        new Chat(),
-        8080
-    );
+$server = IoServer::factory(
+    new Chat(),
+    8080
+);
 
-    $server->run();
+$server->run();
