@@ -11,3 +11,8 @@ $ composer require cboden/ratchet
 
 http://socketo.me/docs/deploy
 
+- Test in c9.io (TODO)
+- OpenShift (TODO)
+
+
+
