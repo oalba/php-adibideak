@@ -7,4 +7,7 @@ http://www.sitepoint.com/how-to-quickly-build-a-chat-app-with-ratchet/
 ```
 $ composer require cboden/ratchet
 ```
+##Deploy
+
+http://socketo.me/docs/deploy
 
