@@ -8,3 +8,27 @@ https://github.com/reactphp/zmq
 
 https://github.com/Textalk/websocket-php
 
+#Test
+
+##Install
+```
+$ composer install
+```
+
+##Run
+####Server(s)
+Chat-Server:
+```
+$ php chat-server.php
+```
+PHP server: as usual
+####Client
+Chat client:
+```
+http://[IP]/index.html
+```
+Send a msg to the chat
+```
+http://[IP]/index.php
+```
+
