@@ -1,8 +1,11 @@
 <?php
-    // http://zguide.zeromq.org/php:all
-    $context = new ZMQContext();
-    $socket = $context->getSocket(ZMQ::SOCKET_PUSH, 'my pusher');
-    $socket->connect("tcp://localhost:5555");
+// https://github.com/Textalk/websocket-php
+require('vendor/autoload.php');
 
-    //$socket->send(json_encode($entryData));
-    $socket->send("Alert!");
+use WebSocket\Client;
+
+//$client = new Client("ws://echo.websocket.org/");
+$client = new Client("ws://localhost:8081/");
+$client->send('{"user":"containerX", "text":"Alert!!"}');
+
+echo $client->receive(); // Will output 'Hello WebSocket.org!'

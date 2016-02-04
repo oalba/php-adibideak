@@ -18,6 +18,7 @@
     };
 
     conn.onmessage = function(e) {
+        console.log(e.data);
         var msg = JSON.parse(e.data);
         updateMessages(msg);
     };
