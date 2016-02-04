@@ -6,3 +6,5 @@ http://zguide.zeromq.org/php:all
 
 https://github.com/reactphp/zmq
 
+https://github.com/Textalk/websocket-php
+
