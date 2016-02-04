@@ -29,6 +29,6 @@ http://[IP]/index.html
 ```
 Send a msg to the chat
 ```
-http://[IP]/index.php
+http://[IP]/sendalert.php
 ```
 

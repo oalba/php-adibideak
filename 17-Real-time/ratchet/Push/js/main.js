@@ -12,7 +12,9 @@
         $("#messages").animate({ scrollTop: $('#messages')[0].scrollHeight}, 1000);
     }
 
-        var conn = new WebSocket('wss://php-examples-zmwebdev.c9users.io:8081');
+    var conn = new WebSocket('wss://php-examples-zmwebdev.c9users.io:8081');
+    //var conn = new WebSocket('wss://'+ window.location.hostname +':8081');
+
     conn.onopen = function(e) {
         console.log("Connection established!");
     };
