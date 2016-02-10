@@ -14,6 +14,8 @@ http://www.phptherightway.com/
 
 http://wasil.org/sublime-text-3-perfect-php-development-set-up
 
+https://github.com/zmwebdev/PHPcookbook-code-3ed
+
 ###Servers
 
 MAC 
