@@ -6,7 +6,7 @@
 
 http://www.codecademy.com/en/tracks/php
 
-http://www.tutorialspoint.com//php/index.htm
+http://www.tutorialspoint.com/php/index.htm
 
 http://www.phptherightway.com/
 
