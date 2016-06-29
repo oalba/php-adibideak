@@ -6,6 +6,8 @@
 
 http://www.codecademy.com/en/tracks/php
 
+http://www.tutorialspoint.com/php/index.htm
+
 http://www.phptherightway.com/
 
 [PHP Cookbook](http://shop.oreilly.com/product/0636920029335.do)
@@ -17,6 +19,7 @@ https://github.com/zmwebdev/PHPcookbook-code-3ed
 https://github.com/codeguy/modern-php
 
 http://wasil.org/sublime-text-3-perfect-php-development-set-up
+
 
 ###Servers
 
