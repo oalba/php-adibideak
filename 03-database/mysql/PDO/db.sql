@@ -1,3 +1,5 @@
+/* mysql -u root -p test < db.sql */
+
 DROP TABLE users;
 
 CREATE TABLE users
