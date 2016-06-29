@@ -1,15 +1,15 @@
 <?php
-//To Test
+//.../02-select-with-error-controll.php?userid=0
 
 // http://php.net/manual/es/pdo.error-handling.php
 // http://www.phptherightway.com/#errors_and_exceptions
 
 try {
 
-  $servername = '';
-  $username = '';
-  $password = '';
-  $database = '';
+  $servername = 'localhost';
+  $username = 'root';
+  $password = 'root';
+  $database = 'test';
   $dbport = '';
   
   // Create connection

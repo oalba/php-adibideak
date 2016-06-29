@@ -13,7 +13,7 @@ $res = $mysqli->query("SELECT * FROM users");
 
 $res->data_seek(0);
 while ($row = $res->fetch_assoc()) {
-    echo " id = " . $row['userid'] . "\n";
+    echo " id = " . $row['idusers'] . "\n";
 }
 
 ?>
